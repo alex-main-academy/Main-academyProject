@@ -1,0 +1,38 @@
+.header {
+    width: auto;
+    height: 70px;
+    background-color: rgb(209, 234, 240);
+    text-align: right;
+    padding-right: 15px;
+}
+input {
+    width: auto;
+    height: 40px;
+    background-color: rgb(44, 184, 199);
+    background-origin: padding-box;
+    margin-top: 15px;
+}
+.info {
+    width: auto;
+    height: auto;
+    border: solid 2px rgb(44, 184, 199);
+    margin: 15px;
+}
+p {
+    margin: 15px;
+    background-color: rgb(238, 238, 186);
+}
+button:first-child {
+    background-color: red;
+}
+button:nth-child(3) {
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.footer {
+    width: auto;
+    height: 70px;
+    background-color: rgb(209, 234, 240);
+    text-align: left;
+    padding-left: 15px;
+}
