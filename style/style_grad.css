@@ -1,0 +1,31 @@
+.container {
+    width: auto;
+    height: auto;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.6);
+    display: inline-flex;
+    align-items: center;
+    padding: 30px;
+    
+    background-image: -webkit-gradient(
+		linear,
+		left top,
+		right top,
+		color-stop(0, #eee),
+		color-stop(25%, #eee),
+		color-stop(25%, #ccc),
+		color-stop(50%, #ccc),
+		color-stop(50%, #eee),
+		color-stop(75%, #eee),
+		color-stop(75%, #ccc),
+		color-stop(100%, #ccc)
+	);
+}
+.div1 {
+    margin: 10px;
+    padding: 10px;
+}
+.href {
+    margin-top: 20px;
+}

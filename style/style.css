@@ -1,38 +1,79 @@
 .header {
-    width: auto;
-    height: 70px;
-    background-color: rgb(209, 234, 240);
-    text-align: right;
-    padding-right: 15px;
-}
-input {
-    width: auto;
-    height: 40px;
-    background-color: rgb(44, 184, 199);
-    background-origin: padding-box;
-    margin-top: 15px;
-}
-.info {
-    width: auto;
+    background-color: rgb(206, 206, 206);
     height: auto;
-    border: solid 2px rgb(44, 184, 199);
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.6);
+}
+.but1 {
+    background-color: rgb(158, 158, 158);
     margin: 15px;
-}
-p {
-    margin: 15px;
-    background-color: rgb(200, 212, 214);
-}
-button:first-child {
-    background-color: red;
-}
-button:nth-child(3) {
     margin-left: 15px;
-    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
 }
-.footer {
-    width: auto;
-    height: 70px;
-    background-color: rgb(209, 234, 240);
-    text-align: left;
-    padding-left: 15px;
+.but2 {
+    background-color: rgb(158, 158, 158);
+    margin: 15px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
 }
+.but2:hover {
+    cursor: pointer;
+    background-color: rgba(158, 158, 158, 0.7);
+}
+.but1:hover {
+    cursor: pointer;
+    background-color: rgba(158, 158, 158, 0.7);
+}
+#logIn {
+    margin: 15px;
+    color: white;
+}
+#signUp {
+    margin: 15px;
+    color: white;
+}
+.sidebar {
+    background-color: rgb(206, 206, 206);
+    margin-top: 40px;
+    height: auto;
+    width: 30%;
+    display: inline-flex;
+    border-radius: 5px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.6);
+}
+.ult {
+    margin: 15px;
+    width: 45%;
+    margin-right: 5%;
+    background-color: rgb(158, 158, 158);
+    border: none;
+    border-radius: 5px;
+}
+.ult:hover {
+    cursor: pointer;
+    background-color: rgba(158, 158, 158, 0.7);
+}
+.stand {
+    margin: 15px;
+    width: 45%;
+    margin-right: 5%;
+    background-color: rgb(158, 158, 158);
+    border: none;
+    border-radius: 5px;
+}
+.stand:hover {
+    cursor: pointer;
+    background-color: rgba(158, 158, 158, 0.7);
+}
+.lab {
+    margin-top: 20px;
+}
+.href {
+    height: 64px;
+    width: 64px;
+}
+
+
