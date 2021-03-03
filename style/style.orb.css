@@ -2,7 +2,12 @@ body {
     background: url(../icon/space.jpg) no-repeat;
     background-size: 100%;
     box-sizing: border-box;
+}
+.conteiner {
     margin: 2px;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
 }
 
 .sun {
