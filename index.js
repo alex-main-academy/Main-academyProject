@@ -1,24 +1,16 @@
-// Создайте страницу, которая отобразит сообщение «Я JavaScript!»
-alert('Я JavaScript!');
+// Создайте страницу, которая спрашивает имя у пользователя и выводит его
 
+let userName = prompt('What is your name?');
+alert('User Name: ' + userName);
 
-/* Объявите две переменные: admin и name.
-   Запишите строку "Джон" в переменную name.
-   Скопируйте значение из переменной name в admin.
-   Выведите на экран значение admin, используя функцию alert (должна показать «Джон») */
-let admin;
-let AdminName;
-AdminName = 'John';
-admin = AdminName;
-alert(admin);
+// Ниже приведён код, который запрашивает у пользователя два числа и показывает их сумму.
+// Он работает неправильно. Код в примере выводит 12 (для значения полей по умолчанию).
+// В чём ошибка? Исправьте её. Результат должен быть 3
+// let a = prompt("Первое число?", 1);
+// let b = prompt("Второе число?", 2);
+// alert(a + b);
 
-/* Что выведет этот скрипт?
-let name = "Ilya";
-alert( `hello ${1}` ); 
-alert( `hello ${"name"}` ); 
-alert( `hello ${name}` ); 
+let firstNum = prompt('first number? ', 1);
+let secondNum = prompt('second number?', 2);
 
-Скрипт выведет 3 алерта 
-1-й hello 1
-2-й hello name
-3-й hello Ilya*/
+alert(Number(firstNum) + Number(secondNum));
