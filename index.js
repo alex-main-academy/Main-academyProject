@@ -14,3 +14,13 @@ let firstNum = prompt('first number? ', 1);
 let secondNum = prompt('second number?', 2);
 
 alert(Number(firstNum) + Number(secondNum));
+
+let firstNum = prompt('first number? ', 1);
+let secondNum = prompt('second number?', 2);
+
+alert(Number(firstNum) + Number(secondNum));
+
+let firstNum = prompt('first number? ', 1);
+let secondNum = prompt('second number?', 2);
+
+alert(Number(firstNum) + Number(secondNum));
