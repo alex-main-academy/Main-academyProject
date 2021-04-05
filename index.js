@@ -2,9 +2,9 @@ function pow(x,n) {
     let result = x;
 
     for (i = 1; i < n; i++) {
-        result *= x;
+        result = result * x;
     }
-    return result;
+    return result
 }
 
-console.log( pow(2, 2) )
+console.log(pow (2,2) );
